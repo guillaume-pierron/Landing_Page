@@ -1,0 +1,169 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: #5BBBDB;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button,
+input {
+    border: none;
+}
+
+label {
+    display: block;
+}
+
+.primary-title {
+    color: #5BBBDB;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.secondary-title {
+    color: #333333;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 20px;
+    color: #333333;
+}
+
+.button {
+    background-color: #E35E32;
+    padding: 8px 30px 8px 30px;
+    border-radius: 40px;
+    color: white;
+    margin-top: 15px;
+    border: none;
+}
+
+
+.section-image {
+    /* height: 475px; ;
+width: 619px; */
+    width: 35%;
+    min-width: 150px;
+    height: auto;
+    margin: 10%;
+
+}
+
+.container {
+    margin: 0px 50px 0px 50px;
+}
+
+.protect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px 40px 0px;
+    margin: 5%;
+}
+
+.list {
+    background-color: #E1E1E1;
+    border-radius: 10px;
+    color: #333333;
+    padding: 15px;
+}
+
+.service-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    text-align: center;
+}
+
+.backup {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px 40px 0px;
+    margin: 5%;
+}
+
+.contact {
+    background-color: #E1E1E1;
+    padding: 15px;
+    border-radius: 10px;
+}
+.contact-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.formgroup {
+    border: none;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.formgroup label {
+    margin-bottom: 5px;
+}
+
+.input {
+    height: 45px;
+    width: 550px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.section-image-contact {
+    /* height: 475px; ;
+width: 619px; */
+    width: 30%;
+    min-width: 150px;
+    height: auto;
+    /* margin: 10%; */
+
+}
+
+.footer {
+    background-color: #5BBBDB;
+    text-align: center;
+    padding: 15px;
+}
+
+.bottom {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.service-list-item {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.contact-title {
+    margin-left: 15px;
+}
