@@ -79,6 +79,12 @@ width: 619px; */
     margin: 5%;
 }
 
+@media screen and (max-width: 990px) {
+    .protect {
+        flex-direction: column-reverse;
+    }
+}
+
 .list {
     background-color: #E1E1E1;
     border-radius: 10px;
@@ -86,12 +92,20 @@ width: 619px; */
     padding: 15px;
 }
 
+
+
 .service-list {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+@media screen and (max-width: 560px) {
+    .service-list {
+        flex-direction: column;
+    }
 }
 
 li {
@@ -107,6 +121,12 @@ li {
     margin: 5%;
 }
 
+@media screen and (max-width: 990px) {
+    .backup {
+        flex-direction: column-reverse;
+    }
+}
+
 .contact {
     background-color: #E1E1E1;
     padding: 15px;
@@ -117,8 +137,14 @@ li {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
 }
+
+@media screen and (max-width: 990px) {
+    .contact-content {
+        flex-direction: column;
+    }
+}
+
 
 .formgroup {
     border: none;
